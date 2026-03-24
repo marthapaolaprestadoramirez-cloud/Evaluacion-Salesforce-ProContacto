@@ -255,27 +255,21 @@ La solución consiste en que, cuando se **cree o actualice un registro de Contac
 
 La solución se implementó mediante una **clase Apex** y un **Trigger en el objeto Contact**.
 
-La clase Apex se encarga de realizar una petición **HTTP GET** al Web Service REST externo utilizando el identificador almacenado en el campo **idprocontacto**. Posteriormente, procesa la respuesta en formato **JSON** y obtiene el valor del campo **email**.
+La clase Apex realiza una petición **HTTP GET** al Web Service REST externo utilizando el identificador almacenado en el campo **idprocontacto**. Después procesa la respuesta en formato **JSON** para obtener el valor del campo **email**.
 
-El **Trigger** se ejecuta cuando se crea o actualiza un contacto. Si el campo **idprocontacto** contiene un valor, se invoca la clase Apex para consultar el servicio externo y, con la información obtenida, se actualiza automáticamente el campo **Email** del contacto.
+El **Trigger** se ejecuta cuando se crea o actualiza un contacto. Si el campo **idprocontacto** contiene un valor, se invoca la clase Apex para consultar el servicio externo y actualizar automáticamente el campo **Email** del contacto.
 
 ---
 
 ## Flujo de funcionamiento
-Creación o actualización de Contact
-            ↓
-Ejecución del Trigger
-            ↓
-Invocación de la clase Apex
-            ↓
-Llamada REST al Web Service externo
-            ↓
-Recepción de respuesta en formato JSON
-            ↓
-Obtención del correo electrónico
-            ↓
-Actualización del campo Email del Contact
 
+1. Se crea o actualiza un **Contact** en Salesforce.  
+2. Se ejecuta el **Trigger** del objeto Contact.  
+3. El trigger invoca la **clase Apex** encargada de la integración.  
+4. La clase realiza una **consulta REST** al Web Service externo.  
+5. Se obtiene la respuesta en formato **JSON**.  
+6. Se extrae el **correo electrónico** del contacto.  
+7. Se actualiza automáticamente el campo **Email** en Salesforce.
 
 ---
 
