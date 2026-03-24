@@ -243,3 +243,44 @@ A continuación, se responden brevemente las preguntas teóricas solicitadas:
 * **N. ¿Salesforce es un ERP?**  No de forma nativa. Salesforce es principalmente un CRM enfocado en el cliente (front-office), aunque se puede integrar con sistemas ERP (back-office) o ampliar sus funciones mediante aplicaciones de terceros (AppExchange).
 
 ## Ejercicio 7 - Desarrollo en Apex y Clases
+
+## Integración de Salesforce con Web Service REST
+
+En este ejercicio se implementó una integración entre **Salesforce** y un **Web Service REST externo**, con el objetivo de obtener automáticamente el correo electrónico de un contacto a partir de un identificador proporcionado por un servicio web.
+
+La solución consiste en que, cuando se **cree o actualice un registro de Contact en Salesforce** y el campo **idprocontacto** contenga un valor, el sistema realizará una consulta a un servicio externo para recuperar la información asociada a ese identificador. Posteriormente, se extrae el correo electrónico de la respuesta y se actualiza automáticamente el campo **Email** del contacto.
+
+---
+## Implementación de la solución
+
+La solución se implementó mediante una **clase Apex** y un **Trigger en el objeto Contact**.
+
+La clase Apex se encarga de realizar una petición **HTTP GET** al Web Service REST externo utilizando el identificador almacenado en el campo **idprocontacto**. Posteriormente, procesa la respuesta en formato **JSON** y obtiene el valor del campo **email**.
+
+El **Trigger** se ejecuta cuando se crea o actualiza un contacto. Si el campo **idprocontacto** contiene un valor, se invoca la clase Apex para consultar el servicio externo y, con la información obtenida, se actualiza automáticamente el campo **Email** del contacto.
+
+---
+
+## Flujo de funcionamiento
+Creación o actualización de Contact
+            ↓
+Ejecución del Trigger
+            ↓
+Invocación de la clase Apex
+            ↓
+Llamada REST al Web Service externo
+            ↓
+Recepción de respuesta en formato JSON
+            ↓
+Obtención del correo electrónico
+            ↓
+Actualización del campo Email del Contact
+
+
+---
+
+## Evidencia de funcionamiento
+
+A continuación se muestra la evidencia del correcto funcionamiento de la integración:
+
+![Comprobación de la integración](imagenes/resultado.png)
