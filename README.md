@@ -6,32 +6,38 @@
 
 <details>
 <summary> Ejercicio 1 - Instalación del ambiente</summary>
+[Ir a la sección](#ejercicio-1---instalacion-del-ambiente)
 </details>
 
 <details>
 <summary> Ejercicio 2 - Protocolo HTTP</summary>
+[Ir a la sección](#ejercicio-2---protocolo-http)
 </details>
 
 <details>
 <summary> Ejercicio 3 - Uso de POSTMAN</summary>
+[Ir a la sección](#ejercicio-3---uso-de-postman)
 </details>
 
 <details>
 <summary> Ejercicio 4 - Trailhead</summary>
+[Ir a la sección](#ejercicio-4---trailhead)
 </details>
 
 <details>
 <summary> Ejercicio 5 - Objetos de Salesforce y Relaciones</summary>
+[Ir a la sección](#ejercicio-5---objetos-de-salesforce-y-relaciones)
 </details>
 
 <details>
 <summary> Ejercicio 6 - Conceptos Generales y Soluciones de Salesforce</summary>
+[Ir a la sección](#ejercicio-6---conceptos-generales-y-soluciones-de-salesforce)
 </details>
 
 <details>
 <summary> Ejercicio 7 - Desarrollo en Apex y Clases</summary>
+[Ir a la sección](#ejercicio-7---desarrollo-en-apex-y-clases)
 </details>
-
 
 ---
 ## Ejercicio 1 - Instalación del ambiente
@@ -264,3 +270,5 @@ A continuación, se responden brevemente las preguntas teóricas solicitadas:
 * **L. ¿Qué es Kanban?** Es una metodología visual ágil para gestionar flujos de trabajo; en Salesforce se utiliza como una vista de tablero donde los registros son tarjetas que se mueven entre columnas (etapas).
 * **M. ¿Qué es un ERP?** Enterprise Resource Planning (Planificación de Recursos Empresariales). Es un sistema integral que gestiona la operativa interna de una empresa, como contabilidad, finanzas, inventario y recursos humanos.
 * **N. ¿Salesforce es un ERP?**  No de forma nativa. Salesforce es principalmente un CRM enfocado en el cliente (front-office), aunque se puede integrar con sistemas ERP (back-office) o ampliar sus funciones mediante aplicaciones de terceros (AppExchange).
+
+## Ejercicio 7 - Desarrollo en Apex y Clases
