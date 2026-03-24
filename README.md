@@ -93,3 +93,35 @@ RESTfull (Representational State Transfer) es un estilo de arquitectura más fle
 
 ### 11. ¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?
 Como se definió en la pregunta 3, los headers son información adicional sobre la petición. La clave específica `Content-Type` sirve para indicarle al servidor exactamente en qué formato se está enviando la información dentro del *body* del request, para que el servidor sepa cómo interpretarla (por ejemplo: `Content-Type: application/json` le dice al servidor "la información que te envío está estructurada como un JSON").
+
+---
+
+## 📡 Ejercicio 3 - Uso de Postman
+
+En este ejercicio se realizaron peticiones HTTP utilizando Postman para interactuar con un servicio REST.
+
+### 🔹 GET inicial
+
+Se realizó una petición GET para obtener los contactos existentes.
+
+![GET inicial](imagenes/get.png)
+
+### 🔹 POST
+
+Se realizó una petición POST para agregar un nuevo contacto a la base de datos.
+
+```json
+{
+  "email": "Paola.Prestado@procontacto.com.mx",
+  "name": "Martha Paola Prestado Ramirez"
+}
+```
+![POST](imagenes/post.png)
+
+### 🔹 GET final
+
+![GET final](imagenes/get2.png)
+
+### ¿Qué diferencias se observan entre las llamadas el punto 1 y 3?
+
+En la primera petición GET se obtienen los registros existentes en la base de datos, después de realizar la petición POST, se agrega un nuevo registro; Al realizar nuevamente el GET, se observa que la información ha cambiado, ya que ahora incluye el nuevo contacto agregado, evidenciando que la operación POST fue exitosa.
