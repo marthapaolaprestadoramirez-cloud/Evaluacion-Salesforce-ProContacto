@@ -2,41 +2,34 @@
 
 ###### Este repositorio contiene la resolución de la prueba técnica para el proceso de selección como Salesforce Developer.
 ---
-# 📑 Índice
+# 📑 Índice 
 
 <details>
-<summary> Ejercicio 1 - Instalación del ambiente</summary>
-[Ir a la sección](#ejercicio-1---instalacion-del-ambiente)
+<summary><a href="#ejercicio-1---instalacion-del-ambiente"> Ejercicio 1 - Instalación del ambiente</a></summary>
 </details>
 
 <details>
-<summary> Ejercicio 2 - Protocolo HTTP</summary>
-[Ir a la sección](#ejercicio-2---protocolo-http)
+<summary><a href="#ejercicio-2---protocolo-http"> Ejercicio 2 - Protocolo HTTP</a></summary>
 </details>
 
 <details>
-<summary> Ejercicio 3 - Uso de POSTMAN</summary>
-[Ir a la sección](#ejercicio-3---uso-de-postman)
+<summary><a href="#ejercicio-3---uso-de-postman"> Ejercicio 3 - Uso de POSTMAN</a></summary>
 </details>
 
 <details>
-<summary> Ejercicio 4 - Trailhead</summary>
-[Ir a la sección](#ejercicio-4---trailhead)
+<summary><a href="#ejercicio-4---trailhead"> Ejercicio 4 - Trailhead</a></summary>
 </details>
 
 <details>
-<summary> Ejercicio 5 - Objetos de Salesforce y Relaciones</summary>
-[Ir a la sección](#ejercicio-5---objetos-de-salesforce-y-relaciones)
+<summary><a href="#ejercicio-5---objetos-de-salesforce-y-relaciones"> Ejercicio 5 - Objetos de Salesforce y Relaciones</a></summary>
 </details>
 
 <details>
-<summary> Ejercicio 6 - Conceptos Generales y Soluciones de Salesforce</summary>
-[Ir a la sección](#ejercicio-6---conceptos-generales-y-soluciones-de-salesforce)
+<summary><a href="#ejercicio-6---conceptos-generales-y-soluciones-de-salesforce"> Ejercicio 6 - Conceptos Generales y Soluciones de Salesforce</a></summary>
 </details>
 
 <details>
-<summary> Ejercicio 7 - Desarrollo en Apex y Clases</summary>
-[Ir a la sección](#ejercicio-7---desarrollo-en-apex-y-clases)
+<summary><a href="#ejercicio-7---desarrollo-en-apex-y-clases"> Ejercicio 7 - Desarrollo en Apex y Clases</a></summary>
 </details>
 
 ---
