@@ -5,34 +5,36 @@
 # 📑 Índice
 
 <details>
-<summary>⚡ Ejercicio 1 - Instalación del ambiente</summary>
+<summary> Ejercicio 1 - Instalación del ambiente</summary>
 </details>
 
 <details>
-<summary>🌐 Ejercicio 2 - Protocolo HTTP</summary>
+<summary> Ejercicio 2 - Protocolo HTTP</summary>
 </details>
 
 <details>
-<summary>📡 Ejercicio 3 - Uso de POSTMAN</summary>
+<summary> Ejercicio 3 - Uso de POSTMAN</summary>
 </details>
 
 <details>
-<summary>☁️ Ejercicio 4 - Trailhead</summary>
+<summary> Ejercicio 4 - Trailhead</summary>
 </details>
 
 <details>
-<summary>🏷️ Ejercicio 5 - Objetos de Salesforce y Relaciones</summary>
+<summary> Ejercicio 5 - Objetos de Salesforce y Relaciones</summary>
 </details>
 
 <details>
-<summary>💡 Ejercicio 6 - Conceptos Generales y Soluciones de Salesforce</summary>
+<summary> Ejercicio 6 - Conceptos Generales y Soluciones de Salesforce</summary>
 </details>
 
 <details>
-<summary>🖥️ Ejercicio 7 - Desarrollo en Apex y Clases</summary>
+<summary> Ejercicio 7 - Desarrollo en Apex y Clases</summary>
 </details>
+
+
 ---
-##  Ejercicio 1 - Instalación del ambiente
+## Ejercicio 1 - Instalación del ambiente
 
 Para la realización de esta prueba técnica se configuró el siguiente entorno de desarrollo:
 
