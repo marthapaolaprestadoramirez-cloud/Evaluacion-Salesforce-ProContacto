@@ -2,36 +2,14 @@
 
 ###### Este repositorio contiene la resolución de la prueba técnica para el proceso de selección como Salesforce Developer.
 ---
-# 📑 Índice 
-
-<details>
-<summary><a href="#ejercicio-1---instalacion-del-ambiente"> Ejercicio 1 - Instalación del ambiente</a></summary>
-</details>
-
-<details>
-<summary><a href="#ejercicio-2---protocolo-http"> Ejercicio 2 - Protocolo HTTP</a></summary>
-</details>
-
-<details>
-<summary><a href="#ejercicio-3---uso-de-postman"> Ejercicio 3 - Uso de POSTMAN</a></summary>
-</details>
-
-<details>
-<summary><a href="#ejercicio-4---trailhead"> Ejercicio 4 - Trailhead</a></summary>
-</details>
-
-<details>
-<summary><a href="#ejercicio-5---objetos-de-salesforce-y-relaciones"> Ejercicio 5 - Objetos de Salesforce y Relaciones</a></summary>
-</details>
-
-<details>
-<summary><a href="#ejercicio-6---conceptos-generales-y-soluciones-de-salesforce"> Ejercicio 6 - Conceptos Generales y Soluciones de Salesforce</a></summary>
-</details>
-
-<details>
-<summary><a href="#ejercicio-7---desarrollo-en-apex-y-clases"> Ejercicio 7 - Desarrollo en Apex y Clases</a></summary>
-</details>
-
+# 📑 Índice
+- [ Ejercicio 1 - Instalación del ambiente](#ejercicio-1---instalacion-del-ambiente)
+- [ Ejercicio 2 - Protocolo HTTP](#ejercicio-2---protocolo-http)
+- [ Ejercicio 3 - Uso de POSTMAN](#ejercicio-3---uso-de-postman)
+- [ Ejercicio 4 - Trailhead](#ejercicio-4---trailhead)
+- [ Ejercicio 5 - Objetos de Salesforce y Relaciones](#ejercicio-5---objetos-de-salesforce-y-relaciones)
+- [ Ejercicio 6 - Conceptos Generales y Soluciones de Salesforce](#ejercicio-6---conceptos-generales-y-soluciones-de-salesforce)
+- [ Ejercicio 7 - Desarrollo en Apex y Clases](#ejercicio-7---desarrollo-en-apex-y-clases)
 ---
 ## Ejercicio 1 - Instalación del ambiente
 
