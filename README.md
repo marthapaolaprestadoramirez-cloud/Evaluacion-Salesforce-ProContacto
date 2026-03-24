@@ -62,9 +62,8 @@ Es una parte de la URL que se utiliza para enviar parámetros o variables estruc
 https://api.com/users?name=Pao&age=22
 
  * En este caso:
- name=Pao
- age=22
-
+- name=Pao
+- age=22
 
 ### 5. ¿Qué es el responseCode? ¿Qué significado tiene los posibles valores devueltos?
 Es un código numérico de tres dígitos que el servidor devuelve en el response para indicar el resultado de la petición HTTP. Sus principales rangos significan:
