@@ -1,0 +1,28 @@
+{
+  "info": {
+    "name": "ConsultaID",
+    "_postman_id": "12345-abcde",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Obtener Contacto por ID",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer <ACCESS_TOKEN>",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://tuInstancia.salesforce.com/services/data/vXX.X/sobjects/Contact/<CONTACT_ID>",
+          "protocol": "https",
+          "host": ["tuInstancia","salesforce","com"],
+          "path": ["services","data","vXX.X","sobjects","Contact","<CONTACT_ID>"]
+        }
+      }
+    }
+  ]
+}
