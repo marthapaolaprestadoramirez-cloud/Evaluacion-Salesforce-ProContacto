@@ -6,6 +6,7 @@
 
 - [Ejercicio 1 - Instalación del ambiente](#ejercicio-1---instalación-del-ambiente)
 - [Ejercicio 2 - Protocolo HTTP](#ejercicio-2---protocolo-http)
+- [Ejercicio 3 - Uso de POSTMAN ](#ejercicio-3---uso-de-postamn)
 ---
 ##  Ejercicio 1 - Instalación del ambiente
 
@@ -96,7 +97,7 @@ Como se definió en la pregunta 3, los headers son información adicional sobre 
 
 ---
 
-## 📡 Ejercicio 3 - Uso de Postman
+## 📡 Ejercicio 3 - Uso de POSTMAN
 
 En este ejercicio se realizaron peticiones HTTP utilizando Postman para interactuar con un servicio REST.
 
