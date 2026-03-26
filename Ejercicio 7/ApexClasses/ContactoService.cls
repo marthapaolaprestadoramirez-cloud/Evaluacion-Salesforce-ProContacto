@@ -2,8 +2,11 @@ public class ContactoService {
 
     @future(callout=true)
     public static void actualizarEmail(String contactId, String idProContacto) {
+
         try {
-            String url = 'https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts/' + idProContacto + '.json';
+            String url = 'https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts/' 
+                        + idProContacto + '.json';
+
             Http http = new Http();
             HttpRequest req = new HttpRequest();
             req.setEndpoint(url);
@@ -11,22 +14,30 @@ public class ContactoService {
 
             HttpResponse res = http.send(req);
 
-            if(res.getStatusCode() == 200){
-                Map<String, Object> resultado = (Map<String, Object>) JSON.deserializeUntyped(res.getBody());
-                if(resultado.containsKey('email') && resultado.get('email') != null){
-                    Contact c = [SELECT Id, Email FROM Contact WHERE Id = :contactId LIMIT 1];
-                    c.Email = (String) resultado.get('email');
-                    try {
-                        update c;
-                    } catch(Exception e){
-                        System.debug('Error al actualizar Contacto: ' + e.getMessage());
-                    }
+            System.debug('RESPONSE: ' + res.getBody());
+
+            if (res.getStatusCode() == 200 && res.getBody() != null) {
+
+                Map<String, Object> data = (Map<String, Object>) JSON.deserializeUntyped(res.getBody());
+
+                if (data != null && data.containsKey('email')) {
+
+                    String email = (String) data.get('email');
+
+                    System.debug('EMAIL OBTENIDO: ' + email);
+
+                    Contact c = new Contact();
+                    c.Id = contactId;
+                    c.Email = email;
+
+                    update c;
+
+                    System.debug('CONTACTO ACTUALIZADO');
                 }
-            } else {
-                System.debug('Callout fallo con status code: ' + res.getStatusCode());
             }
-        } catch(Exception e){
-            System.debug('Error callout: ' + e.getMessage());
+
+        } catch (Exception e) {
+            System.debug('ERROR: ' + e.getMessage());
         }
     }
 }
